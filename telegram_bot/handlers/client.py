@@ -172,7 +172,7 @@ async def it_buttons_en(call: types.CallbackQuery):
     if call.data == "en_in_our_games":
         await bot.send_photo(call.from_user.id, photo=en_platform, caption=r"SELECT A PLATFORM 🇺🇸", reply_markup=en_in_our_games)
     elif call.data == "en_in_ios":
-        await bot.send_photo(call.from_user.id, photo=ios, caption="There's nothing here yet, but there will be soon 🇺🇸", reply_markup=en_in_ios)
+        await bot.send_photo(call.from_user.id, photo=ios, caption="Choose any game you want to download 🇺🇸", reply_markup=en_in_ios)
     elif call.data == "en_in_android":
         await bot.send_photo(call.from_user.id, photo=andoid, caption="Choose any game you want to download 🇺🇸", reply_markup=en_in_android)
     elif call.data == "en_in_pc":
@@ -241,7 +241,7 @@ async def it_buttons_rus(call: types.CallbackQuery):
     if call.data == "rus_in_our_games":
         await bot.send_photo(call.from_user.id, photo=rus_platform, caption="ВЫБЕРИТЕ ПЛАТФОРМУ 🇷🇺", reply_markup=rus_in_our_games)
     elif call.data == "rus_in_ios":
-        await bot.send_photo(call.from_user.id, photo=ios, caption="Здесь пока ничего нет но скоро появится 🇷🇺", reply_markup=rus_in_ios)
+        await bot.send_photo(call.from_user.id, photo=ios, caption="Выбирай любую игру какую хочешь скачать 🇷🇺", reply_markup=rus_in_ios)
     elif call.data == "rus_in_android":
         await bot.send_photo(call.from_user.id, photo=andoid, caption="Выбирай любую игру какую хочешь скачать 🇷🇺", reply_markup=rus_in_android)
     elif call.data == "rus_in_pc":

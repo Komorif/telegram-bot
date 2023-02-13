@@ -104,31 +104,25 @@ en_in_web_games.add(en_back_in_web_games)
 
 # Клавиатура номер 7 (pc_web_games)
 en_in_pc_web_games = InlineKeyboardMarkup(row_width=2)
-en_in_pc_web_games_game_one = InlineKeyboardButton(text="Warrunner 🪖", url="https://okko.tv/serial/game-of-thrones", callback_data="en_in_pc_web_games_game_one")
 en_back_in_pc_web_games = InlineKeyboardButton(text="Back", callback_data="en_back_in_pc_web_games")
 
 # Добавляем кнопки для клавиатуры номер 7 (pc_web_games)
-en_in_pc_web_games.add(en_in_pc_web_games_game_one)
 en_in_pc_web_games.add(en_back_in_pc_web_games)
 
 
 # Клавиатура номер 8 (phone_web_games)
 en_in_phone_web_games = InlineKeyboardMarkup(row_width=2)
-en_in_phone_web_games_game_one = InlineKeyboardButton(text="Race 🏎️", url="https://okko.tv/serial/game-of-thrones", callback_data="en_in_phone_web_games_game_one")
 en_back_in_phone_web_games = InlineKeyboardButton(text="Back", callback_data="en_back_in_phone_web_games")
 
 # Добавляем кнопки для клавиатуры номер 8 (phone_web_games)
-en_in_phone_web_games.add(en_in_phone_web_games_game_one)
 en_in_phone_web_games.add(en_back_in_phone_web_games)
 
 
 # Клавиатура номер 9 (google_play)
 en_in_google_play = InlineKeyboardMarkup(row_width=2)
-en_in_google_play_game_one = InlineKeyboardButton(text="Cars 🚗", url="https://disk.yandex.ru/d/XmU8R4pGdsiuIA", callback_data="en_in_google_play_game_one")
 en_back_in_google_play = InlineKeyboardButton(text="Back", callback_data="en_back_in_google_play")
 
 # Добавляем кнопки для клавиатуры номер 9 (google_play)
-en_in_google_play.add(en_in_google_play_game_one)
 en_in_google_play.add(en_back_in_google_play)
 
 
@@ -261,31 +255,25 @@ rus_in_web_games.add(rus_back_in_web_games)
 
 # Клавиатура номер 7 (pc_web_games)
 rus_in_pc_web_games = InlineKeyboardMarkup(row_width=2)
-rus_in_pc_web_games_game_one = InlineKeyboardButton(text="Warrunner 🪖", url="https://okko.tv/serial/game-of-thrones", callback_data="rus_in_pc_web_games_game_one")
 rus_back_in_pc_web_games = InlineKeyboardButton(text="Назад", callback_data="rus_back_in_pc_web_games")
 
 # Добавляем кнопки для клавиатуры номер 7 (pc_web_games)
-rus_in_pc_web_games.add(rus_in_pc_web_games_game_one)
 rus_in_pc_web_games.add(rus_back_in_pc_web_games)
 
 
 # Клавиатура номер 8 (phone_web_games)
 rus_in_phone_web_games = InlineKeyboardMarkup(row_width=2)
-rus_in_phone_web_games_game_one = InlineKeyboardButton(text="Race 🏎️", url="https://okko.tv/serial/game-of-thrones", callback_data="rus_in_phone_web_games_game_one")
 rus_back_in_phone_web_games = InlineKeyboardButton(text="Назад", callback_data="rus_back_in_phone_web_games")
 
 # Добавляем кнопки для клавиатуры номер 8 (phone_web_games)
-rus_in_phone_web_games.add(rus_in_phone_web_games_game_one)
 rus_in_phone_web_games.add(rus_back_in_phone_web_games)
 
 
 # Клавиатура номер 9 (google_play)
 rus_in_google_play = InlineKeyboardMarkup(row_width=2)
-rus_in_google_play_game_one = InlineKeyboardButton(text="Cars 🚗", url="https://disk.yandex.ru/d/XmU8R4pGdsiuIA", callback_data="rus_in_google_play_game")
 rus_back_in_google_play = InlineKeyboardButton(text="Back", callback_data="rus_back_in_google_play")
 
 # Добавляем кнопки для клавиатуры номер 9 (google_play)
-rus_in_google_play.add(rus_in_google_play_game_one)
 rus_in_google_play.add(rus_back_in_google_play)
 
 
