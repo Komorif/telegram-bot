@@ -257,7 +257,7 @@ async def it_buttons_rus(call: types.CallbackQuery):
     elif call.data == "rus_in_google_play":
         await bot.send_photo(call.from_user.id, photo=google_play, caption="GOOGLE PLAY 🇷🇺", reply_markup=rus_in_google_play)
     elif call.data == "rus_in_social_network":
-        await bot.send_photo(call.from_user.id, photo=rus_social_network, caption="SOCIAL MEDIA 🇷🇺", reply_markup=rus_in_social_network)
+        await bot.send_photo(call.from_user.id, photo=rus_social_network, caption="СОЦИАЛЬНЫЕ СЕТИ 🇷🇺", reply_markup=rus_in_social_network)
     elif call.data == "rus_in_FAQ":
         await bot.send_photo(call.from_user.id, photo=faq, caption="Мы ответили на часто задаваемые вопросы для вашего удобства 🇷🇺", reply_markup=rus_in_FAQ)
     elif call.data == "rus_in_Profile":
